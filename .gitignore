@@ -16,6 +16,9 @@
 cert-manager-webhook-example
 webhook-example-infoblox
 
+# test cert folder
+*apiserver.local.config
+
 # Make artifacts
 _out
 _test
