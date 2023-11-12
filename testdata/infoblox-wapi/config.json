@@ -1,0 +1,12 @@
+{
+  "host": "127.0.0.1",
+  "view": "TEST",
+  "usernameSecretRef": {
+    "name": "infoblox-credentials",
+    "key": "username"
+  },
+  "passwordSecretRef": {
+    "name": "infoblox-credentials",
+    "key": "password"
+  }
+}
