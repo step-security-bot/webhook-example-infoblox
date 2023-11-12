@@ -3,8 +3,13 @@ on:
   push:
     branches:
       - master
+permissions:
+  contents: read
+
 jobs:
   rebase:
+    permissions:
+      contents: write  # for Git to git push
     name: Rebase `dependencies` with `master`
     runs-on: ubuntu-latest
     steps:
