@@ -6,7 +6,7 @@ import (
 
 	"github.com/cert-manager/cert-manager/test/acme/dns"
 
-	"github.com/cert-manager/webhook-example/example"
+	"github.com/fadecore/webhook-example-infoblox/example"
 )
 
 var (
